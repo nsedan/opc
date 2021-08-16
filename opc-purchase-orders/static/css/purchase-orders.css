@@ -1,0 +1,62 @@
+.acf-input-prepend .dashicons-update,
+.acf-input-append .dashicons-edit {
+    color: #2271b1;
+    cursor: pointer;
+}
+
+.acf-input-prepend:hover .dashicons-update,
+.acf-input-append:hover .dashicons-edit {
+    text-shadow: 1px 1px #2271b18c;
+}
+
+.dashicons.c5-dashicons-spin {
+    animation: c5-dashicons-spin 1s infinite;
+    animation-timing-function: linear;
+}
+@keyframes c5-dashicons-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+div#delivery-address-div p,
+div#print-address-div p {
+    margin: 0;
+    padding-left: 10px;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.production_options a::before,
+#woocommerce-product-data ul.wc-tabs li.production_options a::before,
+.woocommerce ul.wc-tabs li.production_options a::before {
+    font-family: Dashicons;
+    content: "\f533";
+}
+
+.acf-fields {
+    background: #fff;
+    border: lightgrey 1px solid;
+}
+.product_code {
+    min-width: 10rem;
+}
+.name,
+.finishes,
+.packing,
+.material,
+.reverse,
+.coating {
+    min-width: 15rem;
+}
+.flat_size,
+.folded_size,
+.quantity_requested,
+.total_cost,
+.per_pack,
+.per_carton,
+.unit_cost,
+.face {
+    min-width: 7rem;
+}
